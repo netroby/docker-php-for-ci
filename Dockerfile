@@ -1,5 +1,5 @@
 FROM netroby/docker-php-fpm
-RUN apt install -y wget; \
+RUN apt install -y wget git; \
     cd /usr/local/bin; \
    wget -c https://phar.phpunit.de/phpunit.phar; \
    wget -c https://getcomposer.org/composer.phar; \
